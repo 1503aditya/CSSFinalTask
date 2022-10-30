@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+}
+
+.menu {
+    margin-left: 700px;
+}
+
+.headLogo {
+    margin-left: 50px;
+}
+
+.row {}
+
+.covered {
+    position: relative;
+    /* make a new "render context", so absolute positioning is relative to this parent container */
+
+    padding: 30px;
+    /* only needed for this demo */
+}
+
+.row .col-xs-12 {
+    background-color: rgb(27, 27, 148);
+    height: 600px;
+    width: 100%;
+}
+
+.covered-img {
+    background: url(img-1.jpg);
+    opacity: .25;
+
+    background-size: cover;
+    /* cover will scale the image so that the smallest dimension = the widest dimension of the box */
+    background-position: center;
+    /* vs the top-left that is default */
+
+    position: absolute;
+    /* take me out of the render context! let me define my own positioning */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* this could also work with width:100%; height:100%;, but is simpler */
+}
+
+.text1 {
+    color: whitesmoke;
+    padding-top: 80px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.text2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-custom1 {
+    margin-left: 600px;
+}
+
+.btn-custom2 {
+    margin-left: 30px;
+}
+
+.mainContent1 {
+    height: 500px;
+
+
+}
+
+.mainContent1-text {
+    display: inline-block;
+    width: 40%;
+    background-color: whitesmoke;
+
+}
+
+.mainContent1-text1 {
+    margin-left: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.mainContent1-text2 {
+    margin-left: 70px;
+    padding-top: 60px;
+    text-align: left;
+}
+
+.mainContent1-text3 {
+    margin-left: 70px;
+    line-height: 50px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+.mainContent1-image {
+    display: inline-block;
+
+}
+
+.mainContent1-image1 {
+    margin-bottom: 400px;
+    margin-left: 200px;
+    height: 350px;
+
+}
+
+.mainContent2 {
+
+    background: url(img-2.jpg);
+}
+
+.mainContent2-text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.mainContent2-card1,
+.mainContent2-card2,
+.mainContent2-card3 {
+    margin-top: 150px;
+    margin-left: 140px;
+    display: inline-block;
+}
+
+.abcd {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.mainContent2-text2,
+.mainContent2-text3,
+.mainContent2-text4 {
+    color: whitesmoke;
+}
+
+.btn-custom3 {
+    margin-top: 150px;
+    margin-right: 70px;
+}
+
+.qwerty {
+    margin-left: 120px;
+    margin-top: 80px;
+    line-height: 2px;
+}
+
+.poiuyt {
+    margin-top: 50px;
+}
+
+.mainContent3 {
+    height: 60px;
+    background-color: whitesmoke;
+}
+
+.nav {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.mainContent4 {
+    height: 600px;
+}
+
+.mainContent4-div1 {
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+}
+
+.mainContent4-img1,
+.mainContent4-img2 {
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 450px;
+}
+
+.mainContent4-img1 {
+    height: 350px;
+}
+
+.mainContent4-img2 {
+    height: 200px;
+}
+
+.mainContent4-div2 {
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    margin-left: 200px;
+}
+
+.mainContent4-img3,
+.mainContent4-img4,
+.mainContent4-img5 {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 174px;
+    width: 350px;
+}
+
+.mainContent4-div3 {
+    display: inline-block;
+    width: 400px;
+
+    margin-left: 0px;
+    height: 550px;
+}
+
+.mainContent4-img6,
+.mainContent4-img7 {
+
+    margin-left: 20px;
+    width: 400px;
+}
+
+.mainContent4-img7 {
+    height: 350px;
+
+}
+
+.mainContent4-img6 {
+    height: 200px;
+    margin-top: 100px;
+}
+
+.mainContent9 {
+
+    background: url(img-4.jpg);
+}
+
+.section-heading {
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+.lope {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.b1 {
+    text-align: center;
+}
+
+.mainContent10-text1,
+.mainContent10-text2 {
+    line-height: 20px;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.mainContent10-card1 {
+    display: inline-block;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.lkjh,
+.lk,
+.mainContent10-text3 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.mainContent10-img1 {
+    display: inline-block;
+    margin-left: 340px;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.mainContent10-card2 {
+    display: inline-block;
+
+}
+
+.mainContent10-img2 {
+    margin-left: 140px;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.card-new {
+    margin-top: 100px;
+}
+
+.qwertyu {
+    font-size: 50px;
+}
+
+.bode {
+    width: 100%;
+    background-color: rgb(60, 60, 149);
+}
